@@ -1,0 +1,26 @@
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+
+    &--primary{
+        color: #fff;
+        background-color: #4f2ac3;
+    }
+
+    // Celular
+    @media (max-width: 640px){
+        display: block;
+        width: 100%;
+        
+    }
+
+    // Netbooks
+    @media (max-width: 1024px){
+        display: flex;
+        align-items: center;
+    }
+}
